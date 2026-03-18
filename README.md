@@ -109,16 +109,6 @@ insert into projects (project_name,department_id) VALUES
 | `/employees.php?id={id}`                 | PUT    | Update employee               |
 | `/employees.php?id={id}`                 | DELETE | Delete employee               |
 
-### **Departments**
-
-| Endpoint                   | Method | Description          |
-| -------------------------- | ------ | -------------------- |
-| `/departments.php`         | GET    | Get all departments  |
-| `/departments.php?id={id}` | GET    | Get department by ID |
-| `/departments.php`         | POST   | Add new department   |
-| `/departments.php?id={id}` | PUT    | Update department    |
-| `/departments.php?id={id}` | DELETE | Delete department    |
-
 ### **Projects**
 
 | Endpoint                                | Method | Description                  |
